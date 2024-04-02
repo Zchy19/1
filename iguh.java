@@ -32,7 +32,13 @@ class DAO<T> {
 class User{
     private int id;
     private int age;
-    private String name;
+    private String name;public static void main(String[] args) {
+        
+    }
+    private String password;
+
+
+
 
     public int getId() {
         return id;
